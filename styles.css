@@ -1,5 +1,7 @@
+
 body {
-font-family: Arial, sans-serif;
+    
+    font-family: Arial, sans-serf;
 margin: 0;
 padding: 0;
 
@@ -7,10 +9,12 @@ padding: 0;
 
 
 
+
 nav ul li {
     display: inline;
     margin-right: 20px;
     font-size: 20px;
+   
 }
 
 .header-text{
@@ -34,6 +38,16 @@ h2 {
    font-size: 30px;
 }
 
+h6 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+h4 {
+    text-align:center;
+    font-size: 30px;
+}
 
 
 h3 {
@@ -41,6 +55,13 @@ text-align: center;
 font-size: 30px;
 color: black;
 }
+
+h5 {
+text-align:center;
+font-size: 30px;
+
+}
+
 
 p {
     text-align: center;
@@ -66,7 +87,7 @@ p {
 nav ul li  a {
     display: inline;
     color:black;
-    
+    text-decoration: none; /*pour enlever les surlignes*/
 }
 
 
@@ -110,13 +131,109 @@ header img  {
   .Shop-buttons {
     border-radius: 30px;  /* Bord arrondi */
     border: none;
-    padding: 10px, 20px;
+    padding: 10px 20px;
     cursor: pointer;
     font-size: 20px;
     background-color: rgba(234, 214, 163, 0.242);
     transition: background-color 0.3s ease;
   }
+
+
   .Shop-buttons:hover {
 
     background-color: lightgray;
   }
+  .Shop-buttons:active {
+    background-color: black; /*couleur quand tu clic sur le boutton*/
+
+}
+
+/*SECTION slider*/
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+   
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide  {
+    position:relative;
+    min-width: 20%;/* Définit la largeur minimale de chaque diapositive à 20% de la largeur de son conteneur parent. Cela permet de s'assurer que cinq diapositives puissent s'aligner côte à côte dans le conteneur. */
+    box-sizing: border-box ;/* Modifie le modèle de boîte pour que la largeur et la hauteur incluent également la marge interne (padding) et la bordure, ce qui facilite la gestion des dimensions de l'élément. */
+    height: 400px;/* Définit la hauteur fixe de chaque diapositive à 400 pixels. Cela garantit que toutes les diapositives ont la même hauteur, ce qui donne un aspect cohérent au slider. */
+    overflow: hidden; /* Masque toute partie de l'image qui déborde du conteneur de la diapositive. Cela est utile pour s'assurer que seules les parties visibles des images sont affichées, sans débordements indésirables. */
+}
+
+.slide p{
+    position: absolute;/* position absolue pour le paragraphe*/
+    bottom: -15px; /*positionner en bas de la diapositive*/
+    left: 0;
+    width: 100%;
+    padding: px;
+    color: white;
+
+}
+
+.slide .caption {
+    position:absolute;
+    left:0;
+    width:100%
+    padding: 12px;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    opacity: 0; /*commence invisible*/
+    vibility: hidden;/*masquer le texte*/
+    transition: opacity 0.5s ease, visibility 0.5 ease; /*transition douce pour l'opacité et la visibilité*/
+    font-size: 15px;
+}
+
+.slide:hover .caption {
+    opacity: 1; /*rendre le texte visible au survol*/
+    visibility:visible; /*rendre le text visible au survol*/
+}
+
+
+
+
+
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+    display: block;
+   margin-left: 10px;
+    object-fit: cover;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    width: auto;
+    padding: 16px;
+    margin-top: -44px;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    transition: 1s ease;
+    border-radius: 30px;
+    user-select: none;
+    margin-left: 10px;
+    border: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 30px;
+    border: none;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
