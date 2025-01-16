@@ -23,3 +23,8 @@ function prevSlide() {
     showSlide(currentSlide - 1);
 }
 
+document.addEventListener("DOMContentLoaded", function() {
+    const contactSection = document.getElementById('contact');
+    contactSection.style.opacity = '1';
+    contactSection.style.transform = 'translateY(0)'
+    });
