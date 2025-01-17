@@ -28,3 +28,10 @@ document.addEventListener("DOMContentLoaded", function() {
     contactSection.style.opacity = '1';
     contactSection.style.transform = 'translateY(0)'
     });
+
+  
+
+     
+    document.getElementById('ShopNow').addEventListener('click', function() {
+        window.location.href = 'shop.html'; // Redirige vers la page shop  
+    });
