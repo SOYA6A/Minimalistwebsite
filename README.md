@@ -13,7 +13,9 @@ Notre mission est d'apporter une touche de beauté à chaque espace grâce à no
 - Page d'accueil avce une image d'en-tête attrayante
 - Section "à propos de nous"
 - Slider pour présenter les nouvelles collections
-- 
+- Section des articles populaires avec catégorisation par taille
+- Formulaire de contact
+- Navigation entre les différentes sections 
 
 
 ## Technologies utilisées
