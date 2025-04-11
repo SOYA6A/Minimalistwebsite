@@ -9,6 +9,13 @@ Notre mission est d'apporter une touche de beauté à chaque espace grâce à no
 Notre mission est d'apporter une touche de beauté à chaque espace grâce à notre collection soigneusement sélectionnée.
 
 
+## Aperçu des fonctionnalités:
+- Page d'accueil avce une image d'en-tête attrayante
+- Section "à propos de nous"
+- Slider pour présenter les nouvelles collections
+- 
+
+
 ## Technologies utilisées
 
 - HTML5  
