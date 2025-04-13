@@ -25,5 +25,10 @@ Notre mission est d'apporter une touche de beauté à chaque espace grâce à no
 - JavaScript  
 - Google Fonts
 
+## Fonctionnalités détaillées 
+Navigation
+Le site dispose d'une navigation principale permettant d'acceder facilement a toutes les sections:
+
+
 
 
