@@ -30,6 +30,12 @@ Navigation
 
 Le site dispose d'une navigation principale permettant d'acceder facilement a toutes les sections:
 
+- Accueil
+- Boutique
+- Collections
+- A propos
+- Articles populaires
+- Contact
 
 
 
