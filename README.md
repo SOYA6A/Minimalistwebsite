@@ -37,5 +37,10 @@ Le site dispose d'une navigation principale permettant d'acceder facilement a to
 - Articles populaires
 - Contact
 
+## Catégories d'articles
+Les vases sont classés en trois catégories principales:
 
+Grands vases
+Vases moyens
+Petits vases
 
