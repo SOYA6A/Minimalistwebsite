@@ -35,7 +35,6 @@ Le site dispose d'une navigation principale permettant d'acceder facilement a to
 - Collections
 - A propos
 - Articles populaires
-- 
 - Contact
 
 
